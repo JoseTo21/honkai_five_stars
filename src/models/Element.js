@@ -1,7 +1,7 @@
 const { DataTypes } = require("sequelize");
 const sequelize = require("../utils/connection");
 
-const Element = sequelize.define("element", {
+const Elementt = sequelize.define("element", {
   name: {
     type: DataTypes.STRING,
     allowNull: false,
@@ -12,4 +12,4 @@ const Element = sequelize.define("element", {
   },
 });
 
-module.exports = Element;
+module.exports = Elementt;
